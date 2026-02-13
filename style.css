@@ -1,12 +1,8 @@
-.board {
-    width: 400px;
-    margin: auto;
+.board, .info {
     transform: scale(2);
-}
-
-.info {
-    width: 400px;
-    margin: auto;
+    transform-origin: top left;
+    width: 200%; /* doubles the width visually */
+    margin: 0 auto; /* keeps it centered horizontally */
 }
 
 .move-history {
